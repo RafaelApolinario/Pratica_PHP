@@ -103,6 +103,15 @@
                         <li><a href="exercicio.php?dir=Classes_objetos&file=7erros">7 erros </a></li>
                     </ul>
                 </div>
+                <div class="modulo laranja">
+                    <h3>BD</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=criar_banco">Criando Banco de Dados</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=criar_tabela">Criando tabela</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=inserir_1">Inserindo Registros</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=consultarRegistros">Inserindo Registros</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
