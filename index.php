@@ -108,8 +108,11 @@
                     <ul>
                         <li><a href="exercicio.php?dir=bancoDeDados&file=criar_banco">Criando Banco de Dados</a></li>
                         <li><a href="exercicio.php?dir=bancoDeDados&file=criar_tabela">Criando tabela</a></li>
-                        <li><a href="exercicio.php?dir=bancoDeDados&file=inserir_1">Inserindo Registros</a></li>
-                        <li><a href="exercicio.php?dir=bancoDeDados&file=consultarRegistros">Inserindo Registros</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=inserir_1">Inserindo Registros_1</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=consultarRegistros">Consultar registros</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=excluir_1">Excluir Registros_1</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=excluir_2">Excluir Registros_2</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=inserir_2">Inserindo Registros_2</a></li>
                     </ul>
                 </div>
             </nav>

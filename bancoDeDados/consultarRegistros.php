@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <div class="titulo">Consultar registros</div>
 
 <?php
@@ -22,8 +23,34 @@ if ($resultado) { // se o numero de colunas for maior q zero faça a logica
     echo "Error: " . $conexao->error;
 }
 
-print_r($registros);
-
 $conexao->close();
-
 ?>
+
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Nascimento</th>
+        <th>E-mail</th>
+    </thead>
+    <tdoby>
+        <?php foreach($registros as $registro): ?>
+            <tr>
+                <td><?=$registro['id']?></td>
+                <td><?=$registro['nome']?></td>
+                <td>
+                    <?=
+                        date('d/m/y', strtotime($registro['nascimento']));
+                    ?>
+                </td>
+                <td><?=$registro['email']?></td>
+            </tr>
+        <?php endforeach ?>
+    </tdoby>
+</table>
+
+<style>
+    table > * {
+        font-size: 1.2rem;
+    }
+</style>
