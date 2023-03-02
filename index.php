@@ -113,6 +113,8 @@
                         <li><a href="exercicio.php?dir=bancoDeDados&file=excluir_1">Excluir Registros_1</a></li>
                         <li><a href="exercicio.php?dir=bancoDeDados&file=excluir_2">Excluir Registros_2</a></li>
                         <li><a href="exercicio.php?dir=bancoDeDados&file=inserir_2">Inserindo Registros_2</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=alterar">Alterar Registros</a></li>
+                        <li><a href="exercicio.php?dir=bancoDeDados&file=conexao_pdo">Conexão PDO</a></li>
                     </ul>
                 </div>
             </nav>
